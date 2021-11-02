@@ -1,16 +1,17 @@
-.contenedor-sudmenu{
-    display: none;
-}
+
 
 .contenedor-sudmenu{
+    display: none;
     position: absolute;
     left: 65%;
     top: 70px;
     background: rgb(241, 238, 238);
-    min-width: 20%; 
+    min-width: 20%;
+    height: 500px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.301);
     box-shadow: black;
+    overflow: scroll;
     z-index: 999;
 }
 
