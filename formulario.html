@@ -36,38 +36,50 @@
 
                 </div>
             </div>
-            <form id="formulario">
-                <div class="campo">
-                    <label for="name" class="form-label body1Regular label-edit">Nombre</label>
-                    <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
-                </div>
-                <div class="campo">
-                    <label for="product-image" class="form-label body1Regular label-edit">Imagen (url)</label>
-                    <input id="product-image" name="product-image" class="ms-1 edit body1Regular form-control" type="text"
-                        placeholder="">
-                </div>
-                <div class="campo">
-                    <label for="price" class="form-label body1Regular label-edit">Precio</label>
-                    <input id="price" name="price" class="ms-1 edit body1Regular form-control" type="text"
-                        placeholder="">
-                </div>
-                <div class="campo">
-                    <label for="dropdown" class="form-label body1Regular label-edit">Category</label>
-                    <select name="dropdown" id="dropdown">
-                            <option value="Hoodies">Hoodies</option>
-                            <option value="Shirts">Shirts</option>
-                            <option value="Hats">Hats</option>
-                            <option value="Sweaters">Sweaters</option>
-                            <option value="Sweaters">Shorts</option>
-                    </select>
+        <form id="formulario">
+            <div class="campo">
+                <label for="name" class="form-label body1Regular label-edit">Nombre</label>
+                <input id="name" name="name" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+            </div>
+            <div class="campo">
+                <label for="product-image" class="form-label body1Regular label-edit">Imagen (url)</label>
+                <input id="product-image" name="product-image" class="ms-1 edit body1Regular form-control" type="text"
+                    placeholder="">
+            </div>
+            <div class="campo">
+                <label for="price" class="form-label body1Regular label-edit">Precio</label>
+                <input id="price" name="price" class="ms-1 edit body1Regular form-control" type="text" placeholder="">
+            </div>
+            <div class="campoId">
+                <label for="id">Id</label>
+                <input id="id" name="id" type="text">
+            </div>
+            <div class="campo">
+                <label for="dropdown" class="form-label body1Regular label-edit">Category</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="Hoodies">Hoodies</option>
+                    <option value="Shirts">Shirts</option>
+                    <option value="Hats">Hats</option>
+                    <option value="Sweaters">Sweaters</option>
+                    <option value="Sweaters">Shorts</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <div class="">
+                    <button id="btnGuardar" type="submit" class="form-btn">Guardar</button>
                 </div>
                 <div class="">
-                    <button id="btnGuardar" type="submit"
-                        class="btn btn-secondary buttom guardar-cambios">Guardar producto</button>
+                    <button id="btnNombre" type="button" class="form-btn">Buscar por nombre</button>
                 </div>
-
-
-            </form>
+                <div class="">
+                    <button id="btnEditar" type="button" class="form-btn">Editar</button>
+                </div>
+                <div class="">
+                    <button id="btnEliminar" type="button" class="form-btn">Eliminar</button>
+                </div>
+            </div>
+        
+        </form>
         </div>
     </main>
     <footer>
