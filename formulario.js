@@ -4,7 +4,7 @@ let url = "http://localhost:4005/productos";
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
   let name = document.getElementById("name").value;
-  let productImage = document.getElementById("product-image").value;
+  let image = document.getElementById("product-image").value;
   let price = document.getElementById("price").value;
   let category = document.getElementById("dropdown").value;
   await fetch(url, {

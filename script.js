@@ -79,7 +79,7 @@ boton2.addEventListener('click', async(e) =>{
 
 
 
-/* 
+
 //Adicionar al array purchase
 cards.addEventListener("click", (e) => {
   if (e.target.classList.contains("btn-purchase")) {
@@ -100,6 +100,8 @@ cards.addEventListener("click", (e) => {
   }
 });
 
+
+/* 
 //Cuando se click a una imagen del producto
 //Se lleva ese producto al localStorage y se llama la funcion getProduct que trae el detalle del producto
 cards.addEventListener("click", (e) => {
