@@ -53,6 +53,7 @@ boton.addEventListener('click', async(e) => {
   cards.appendChild(fragment);
 })
 
+/*<<<<<<< HEAD
 
 
 
@@ -62,12 +63,20 @@ const trProductos = document.querySelector('.table');
 const btnAddCar = document.querySelector('button');
 
 btnAddCar.addEventListener('click', async(e) =>{
+=======*/
+
+
+
+const mainModal = document.getElementById('pageWrapper');
+
+cards.addEventListener('click', async(e) =>{
   e.preventDefault();
   let resp = await fetch(url);
   let data = await resp.json();
   console.log(data);
   let idTarget = e.target.dataset.id;
   console.log(idTarget);
+/*<<<<<<< HEAD
 
   data.forEach(product => { 
     const {id, title, image, price} = product;
@@ -82,10 +91,51 @@ btnAddCar.addEventListener('click', async(e) =>{
     trProductos.innerHTML += "";
     trProductos.appendChild(fragment);
   
+=======*/
+  detailsPage.style.display = "flex";
+  data.forEach(product =>{
+    const movieE1 = document.createElement('div');
+    const {id, title, image, price} = product;
+    if(id == idTarget){
+      movieE1.innerHTML = ` 
+    <div class="page-inner" id="pageInner">
+      <div class="row">
+        <div class="el-wrapper">
+          <div class="box-up">
+            <img class="img" src="${image}" alt="">
+            <div class="img-info">
+              <div class="info-inner">
+                <span class="p-name">${title}</span>
+                <span class="p-company">${title}</span>
+              </div>
+              <div class="a-size">Talla : <span class="size">S , M , L , XL</span></div>
+            </div>
+          </div>
+  
+          <div class="box-down">
+            <div class="h-bg">
+              <div class="h-bg-inner"></div>
+            </div>
+  
+            <a class="cart" href="#">
+              <span class="price">${price}</span>
+              <span class="add-to-cart">
+                <span class="txt">Agregar al carrito</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    ` 
+      mainModal.appendChild(movieE1);
+    }
+  })
 })
 
 // -----------------------------------------------Menú carrito desplegable --------------------
 const btnCarrito = document.getElementById('menuImg');
+
 
 btnCarrito.addEventListener('click', (e) => {
   document.getElementById('contenedorSudmenu').style.display = 'block';
@@ -94,3 +144,7 @@ btnCarrito.addEventListener('click', (e) => {
 btnCarrito.addEventListener('mouseenter', (e) => {
     document.getElementById('contenedorSudmenu').style.display = 'none';
 });
+
+
+
+
