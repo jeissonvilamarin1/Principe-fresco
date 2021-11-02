@@ -1,0 +1,109 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "title": "3 Jabones Dove blanco",
+      "image": "./images/3-JAB.DOVE-BLANCO_7891150046481.jpg",
+      "price": 9000,
+      "category": "Comestibles"
+    },
+    {
+      "id": 2,
+      "title": "3 Jabones Lux jazmin 125 gr",
+      "image": "images/3-JAB.LUX-JAZMIN-125-GRAMOS_7702006205061.jpg",
+      "price": 9000,
+      "category": "Cuidado personal"
+    },
+    {
+      "id": 3,
+      "title": "Acondicionador Seda keratina 340 ml",
+      "image": "images/ACOND.SEDAL-KERATINA-340-ML_7506306237940.jpg",
+      "price": 12500,
+      "category": "Cuidado del cabello"
+    },
+    {
+      "id": 4,
+      "title": "Champu Savital multivitaminas 550 ml",
+      "image": "images/CHA.SAVITAL-MULTIVITAMINAS-550-ML_7702006202930.jpg",
+      "price": 12500,
+      "category": "Cuidado oral"
+    },
+    {
+      "id": 5,
+      "title": "Crema Ponds rejuveness 100 gr",
+      "image": "images/CREMA-PONDS-REJUVENESS-100-GR_7501056330491.jpg",
+      "price": 18000,
+      "category": "Helados"
+    },
+    {
+      "id": 6,
+      "title": "Desodorante Axe body spray ice chill 50 ml",
+      "image": "images/DTE.AXE--BODY-SPR.-ICE-CHILL-EFEC150-ML._7506306213906.jpg",
+      "price": 14000,
+      "category": "Leches y pañales"
+    },
+    {
+      "id": 7,
+      "title": "Desodorante Dove spray clean cuidado total",
+      "image": "images/DTE.DOVE-SPR.CLEAN-CUIDADO-TOTAL-150ML-H_7791293012087.jpg",
+      "price": 14000,
+      "category": "Medicamentos comerciales"
+    },
+    {
+      "id": 8,
+      "title": "Desodorante Rexona soft clinical 48 gr",
+      "image": "images/DTE.REXONA-SOFT-CLINICAL-48GR-W-S.PRECIO_7702006202756.jpg",
+      "price": 17000,
+      "category": "Medicamentos genericos"
+    },
+    {
+      "id": 9,
+      "title": "Gel Ego for men extreme ultra 240 ml",
+      "image": "images/GEL-EGO-FORMEN-EXTREME-ULTRA-240-ML_7702006300100.jpg",
+      "price": 7000,
+      "category": "Cosmeticos"
+    },
+    {
+      "id": 10,
+      "title": "Talco Rexona efficient 60 gr",
+      "image": "images/TALCO-REXONA-EFFICIENT-60-GR_7702006051118.jpg",
+      "price": 9000,
+      "category": "Cosmeticos"
+    },
+    {
+      "title": "CALADRYL CLEAR LOCIÓN",
+      "image": "https://colsubsidio.vteximg.com.br/arquivos/ids/168826-1200-1200/77014535.jpg?v=637355094181270000",
+      "price": 22500,
+      "category": "Cosmeticos",
+      "id": 11
+    },
+    {
+      "title": "DESCONGEL GRIPA CAPSULA BLANDA",
+      "image": "https://colsubsidio.vteximg.com.br/arquivos/ids/176436-1200-1200/7703889152541.jpg?v=637699254272730000",
+      "price": "15150",
+      "category": "Cuidado del cabello",
+      "id": 12
+    },
+    {
+      "title": "ENSURE ADVANCE CHOCOLATE 400 GRAMOS",
+      "image": "https://colsubsidio.vteximg.com.br/arquivos/ids/163054-1200-1200/8427030004549.jpg?v=637212597392100000",
+      "price": "49700",
+      "category": "Leches y pañales",
+      "id": 13
+    },
+    {
+      "title": "PEDIALYTE CON ZINC 30 CEREZA 500 ML",
+      "image": "https://colsubsidio.vteximg.com.br/arquivos/ids/170795-1200-1200/7501033957376.jpg?v=637408833129970000",
+      "price": "6300",
+      "category": "Medicamentos comerciales",
+      "id": 14
+    },
+    {
+      "title": "CALADRYL CLEAR LOCIÓN",
+      "image": "https://colsubsidio.vteximg.com.br/arquivos/ids/168826-1200-1200/77014535.jpg?v=637355094181270000",
+      "price": 22500,
+      "category": "Cuidado personal",
+      "id": 15
+    }
+  ]
+}

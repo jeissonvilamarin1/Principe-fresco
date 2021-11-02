@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Ecommerce</title>
+  </head>
+
+  <body id="body">
+      <header>
+          <nav id="nav-menu">
+                <ul><a href="" ><img class="menu-img logo" src="./images/farmalkosto.jpg" alt="menu"></a></ul>
+                <ul>
+                    <form id="form">
+                      <input type="text" id="search" class="search" placeholder="Busca tus productos..." />
+                      <button id="btnBuscar" type="submit">Buscar</button>
+                    </form>
+                </ul>
+                <ul><a href="formulario.html"><img class="menu-img" src="./images/hogar.svg" alt=""></a></ul>
+                <ul><a href="#" id="cart"><img class="menu-img" src="./images/carrito-de-compras.svg" alt=""></a></ul>
+        </nav>
+    </header>
+    <hr>
+
+    <div class="container">
+      <aside>
+        <nav id="nav-bar">
+          <ul>
+            <button id="btnBuscar2" type="button">
+              <img src="./images/candy.svg"  alt="">
+              <p href="">Comestibles</p>
+            </button>
+          </ul>
+          <ul>
+            <button id="btnBuscar2" type="button">
+              <img src="./images/cosmetics.svg" alt="">
+              <p>Cosméticos</p>
+            </button>
+          </ul>
+          <ul>
+            <button id="btnBuscar2" type="button">
+              <img src="./images/hair-color-sample.svg" alt="">
+              <p>Cuidado del cabello</p>
+            </button>
+          </ul>
+          <ul>
+            <button id="btnBuscar2" type="button">
+              <img src="./images/tooth-brush.svg" alt="">
+              <p>Cuidado oral</p>
+            </button>
+          </ul>
+          <ul>
+            <button id="btnBuscar2" type="button">
+              <img src="./images/pedicure.svg" alt="">
+              <p>Cuidado oral</p>
+            </button>
+          </ul>
+          <ul>
+            <button id="btnBuscar2" type="button">
+              <img src="./images/icecream.svg" alt="">
+              <p>Helados</p>
+            </button>
+          </ul>
+          <ul>
+            <button id="btnBuscar2" type="button">
+              <img src="./images/baby.svg" alt="">
+              <p>Leches y pañales</p>
+            </button>
+          </ul>
+          <ul><button id="btnBuscar2" type="button">
+            <img src="./images/vitamin-pill.svg" alt="">
+            <p>Medicamentos comerciales</p>
+          </button>
+          </ul>
+          <ul>
+            <button id="btnBuscar2" type="button">
+              <img src="./images/pills.svg" alt="">
+              <p>Medicamentos genéricos</p>
+            </button>
+          </ul>
+        </nav>
+      </aside>
+
+      <main>
+        <div class="inner-container">
+          <div class="cards" id="cards"></div>
+          <div class="details-page" id="details-page"></div>
+          <div class="cart-page" id="cart-page"></div>
+        </div>
+      </main>
+    </div>
+
+    <template id="template-card">
+      <div class="card-body">
+        <img src="" alt="" id="product-image" class="product-image"/>
+        <h3>title</h3>
+        <h4>price</h4>
+        <button id="btn-purchase" class="btn-purchase">
+          Añadir al carrito
+        </button>
+      </div>
+    </template>
+
+    <template id="template-details">
+      <div id="card-detail">
+        <a href="index.html" id="close-detail">x</a>
+        <div id="card-body">
+          <p id="card-name"></p>
+          <img src="" alt="" id="card-img" />
+          <br />
+          <hr />
+          <p id="card-title"></p>
+          <p id="card-price"></p>
+        </div>
+      </div>
+    </template>
+
+    <template id="template-cart">
+      <div id="cart-detail">
+        <a href="index.html" id="close-detail">x</a>
+        <h1 id="cart-heading">Carrito de compras</h1>
+        <div id="cart-body">
+          <img src="" alt="" id="cart-img" />
+          <p id="cart-name"></p>
+          <br>
+          <p id="cart-price"></p>
+          <div class="btns-add-product">
+            <button class="btn-remove">-</button>
+            <p id="product-quantity">1</p>
+            <button class="btn-add">+</button>
+          </div>
+        </div>
+        <br>
+        <hr />
+      </div>
+    </template>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>

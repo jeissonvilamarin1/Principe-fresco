@@ -1,0 +1,7 @@
+Actividades:
+1. Crear el archivo data.json del cual se van a realizar las peticiones
+2. Crear el json server con el siguiente comando json-server --watch data.json --port 4005 (GET)
+3. Crear el script.js, Traer la data (fetch) y recorrer el array y cambiar los contenidos de los atributtos, 
+Clonar la template-card y adjuntarala como nodo al Fragment, y luego a cards.
+4. Hacer el formulario que permite la peticion POST para crear los productos.
+5. Crear la barra de busqueda
