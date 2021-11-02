@@ -61,6 +61,19 @@ cards.addEventListener('click', async(e) =>{
   console.log(data);
   let idTarget = e.target.dataset.id;
   console.log(idTarget);
+  detailsPage.style.display = "flex";
+  data.forEach(product =>{
+    const {id, title, image, price} = product;
+    if(id == idTarget){
+      detailsPage.innerHTML = "";
+      templateDetail.querySelector("img").setAttribute("src", image);
+      templateDetail.querySelector("h2").textContent = title;
+      templateDetail.querySelector("h3").textContent = `$ ${price}`;
+      const clone = templateDetail.cloneNode(true);
+      fragment.appendChild(clone);
+      detailsPage.appendChild(fragment);
+    }
+  })
 })
 
 

@@ -31,51 +31,6 @@ aside{
     
 }
 
-/*aside*/
-
-#nav-bar{
-    display: flex;
-    flex-direction: column;
-    height: 5em;
-
-}
-#nav-bar ul{
-    margin: 0.5em 0;
-    text-decoration: none;
-    width: 100%;
-    padding-left: 1em;
-    display: flex;
-
-}
-#nav-bar ul a{
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    font-size: 1em;
-    padding: 0.3em;
-    margin-left: 0.5em;
-}
-#nav-bar ul a:hover{
-    border: 1px solid #DDDDDD;
-    border-radius: 12px;
-    background-color: #DDDDDD;
-    padding: 0.3em;
-    align-items: center;
-}
-#nav-bar ul img{
-    width: 2em;
-}
-#logo-img{
-    width: 100%;
-    margin-bottom: 1em;
-}
-
-#search-input {
-    width: 90%;
-}
-hr{
-    margin-top: 0;
-}
 
 /*header*/
 
@@ -121,7 +76,7 @@ header{
 .card-body{
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 420px;
     width: 220px;
     margin: 1em;
     padding: 0.5em;
@@ -135,8 +90,10 @@ header{
     box-shadow: 3px 3px #DDDDDD;
 }
 .product-image{
+    margin-bottom: 10px;
     width: 200px;
     height: 300px;
+    border-radius: 10px;
 }
 .card-body h3{
     font-size: 1em;
@@ -243,6 +200,9 @@ hr{
 #close-detail:active{
     background: grey;
     color: white;
+}
+#dropdown{
+    width: 65%;
 }
 
 /*scroll*/
