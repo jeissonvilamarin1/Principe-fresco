@@ -55,6 +55,20 @@
       "price": "90000",
       "category": "Sweaters",
       "id": 8
+    },
+    {
+      "title": "",
+      "image": "",
+      "price": "",
+      "category": "Shirts",
+      "id": 10
+    },
+    {
+      "title": "Gorro",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635864063/Princiipe%20fresco/Bucket_hat_kw6jdc.jpg",
+      "price": "6000",
+      "category": "Hoodies",
+      "id": 11
     }
   ]
 }
