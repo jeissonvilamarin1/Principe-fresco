@@ -101,57 +101,6 @@ cards.addEventListener("click", (e) => {
 });
 
 
-/* 
-//Cuando se click a una imagen del producto
-//Se lleva ese producto al localStorage y se llama la funcion getProduct que trae el detalle del producto
-cards.addEventListener("click", (e) => {
-  if (e.target.classList.contains("product-image")) {
-    const findId = e.target.dataset.id;
-    let product = data.find((p) => p.id == findId);
-    localStorage.setItem("product", JSON.stringify(product));
-    getProduct();
-  }
-});
-
-//Muestra el detalle del producto
-//lo trae del localStorage y cambia el display de 'none' a 'flex'
-//Trae la data y cambia los contenidos de los atributtos
-//Clonar la template-detail y adjuntarala como nodo al Fragment, y luego a details-page
-function getProduct(){
-    let product = JSON.parse(localStorage.getItem("product"));
-    console.log(product);
-    body.style.overflow= "hidden";
-    detailsPage.style.display= "flex";
-    const {title, image, price} = product;
-    templateDetail.getElementById('card-name').textContent = title;
-    templateDetail.getElementById('card-img').setAttribute('src', image);
-    templateDetail.getElementById('card-title').textContent= title;
-    templateDetail.getElementById('card-price').textContent= `$ ${price}`;
-
-    const clone = templateDetail.cloneNode(true);
-    fragment.appendChild(clone);
-    detailsPage.appendChild(fragment);
-}
-
-cart.addEventListener("click", (e) =>{
-    let product = JSON.parse(localStorage.getItem("Carrito"));
-    console.log(product);
-    body.style.overflow= "hidden";
-    cartPage.style.display= "flex";
-    product.forEach(p => {
-        const {title, image, price} = p;
-        console.log(p.title);
-        templateCart.querySelector('img').setAttribute('src', image);
-        templateCart.getElementById('cart-name').textContent = title;
-        templateCart.getElementById('cart-price').textContent= `$ ${price}`;
-        const clone = templateCart.cloneNode(true);
-        fragment.appendChild(clone);
-    })
-    cartPage.appendChild(fragment);
-})
- */
-
-
 
 
 
