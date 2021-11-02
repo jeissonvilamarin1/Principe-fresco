@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="/submene.css">
     <title>Principe Fresco</title>
   </head>
 <!--hola-->
@@ -25,7 +26,27 @@
                     </form>
                 </ul>
                 <ul><a href="formulario.html"><img class="menu-img" src="./images/hogar.svg" alt=""></a></ul>
-                <ul><a href="#" id="cart"><img class="menu-img" src="./images/carrito-de-compras.svg" alt=""></a></ul>
+                <ul><img class="menu-img" id="menuImg" src="./images/carrito-de-compras.svg" alt=""></ul>
+
+               <!-- ------------------------------ sub menú carrito de compras------------------ -->
+              <div class="contenedor-sudmenu" id="contenedorSudmenu">
+                <table class="table">
+                    <tr class="colum-header">
+                        <th>Producto</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                    </tr>
+                </table>
+
+                <div class="btn-cart">
+                    <h2><a href="">Completar compra</a></h2>
+                </div>
+
+                <div class="vaciar-carrito">
+                    <h2>Vaciar Carrito</h2>
+                </div>
+              </div>
+               
         </nav>
     </header>
     <hr>
@@ -88,5 +109,6 @@
     </template>
 
     <script src="./script.js" type="module"></script>
+    <script src="/btnCarrito.js"></script>
   </body>
 </html>

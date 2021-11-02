@@ -150,3 +150,10 @@ cart.addEventListener("click", (e) =>{
     cartPage.appendChild(fragment);
 })
  */
+
+
+
+
+
+
+// --------------------------------------Carrito de compras --------------------------------
