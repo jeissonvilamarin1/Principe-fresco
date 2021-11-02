@@ -121,7 +121,7 @@ header{
 .card-body{
     display: flex;
     flex-direction: column;
-    height: 320px;
+    height: 400px;
     width: 220px;
     margin: 1em;
     padding: 0.8em;

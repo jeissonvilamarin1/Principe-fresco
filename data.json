@@ -2,17 +2,24 @@
   "productos": [
     {
       "id": 1,
-      "title": "3 Jabones Dove blanco",
-      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635863267/3-JAB.DOVE-BLANCO_7891150046481_tgybnh.jpg",
-      "price": 9000,
-      "category": "Comestibles"
+      "title": "Dice In The Mirror Hoodie",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635864064/Princiipe%20fresco/Hoodie_dice_in_the_mirror_k41mfr.png",
+      "price": 80000,
+      "category": "Hoodies"
     },
     {
       "id": 2,
-      "title": "3 Jabones Lux jazmin 125 gr",
-      "image": "images/3-JAB.LUX-JAZMIN-125-GRAMOS_7702006205061.jpg",
-      "price": 9000,
-      "category": "Cuidado personal"
+      "title": "Dice In The Mirror Shirt",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635864063/Princiipe%20fresco/Shirt_dice_in_the_mirror_synlx6.png",
+      "price": 50000,
+      "category": "Shirts"
     },
+    {
+      "title": "Fresh Prince Bucket Hat",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635864063/Princiipe%20fresco/Bucket_hat_kw6jdc.jpg",
+      "price": "60000",
+      "category": "Hats",
+      "id": 3
+    }
   ]
 }
