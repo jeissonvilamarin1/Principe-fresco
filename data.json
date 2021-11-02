@@ -20,6 +20,41 @@
       "price": "60000",
       "category": "Hats",
       "id": 3
+    },
+    {
+      "title": "Color Block Snapback Hat",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635864063/Princiipe%20fresco/Hat_colors_hjqlth.jpg",
+      "price": "50000",
+      "category": "Hats",
+      "id": 4
+    },
+    {
+      "title": "Crown Sweatshirt",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635864064/Princiipe%20fresco/Sweater_sdj41y.jpg",
+      "price": "90000",
+      "category": "Sweaters",
+      "id": 5
+    },
+    {
+      "title": "Fresh Black Tie-Dye Hoodie",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635864064/Princiipe%20fresco/Hoodie_black_colevm.jpg",
+      "price": "100000",
+      "category": "Hoodies",
+      "id": 6
+    },
+    {
+      "title": "Fresh Grey Sweatshirt",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635864064/Princiipe%20fresco/Shirt_grey_ynpjgw.jpg",
+      "price": "90000",
+      "category": "Shirts",
+      "id": 7
+    },
+    {
+      "title": "Little Sunshine Blue Tie-Dye Tee",
+      "image": "https://res.cloudinary.com/dtp6uf9vc/image/upload/v1635866545/Princiipe%20fresco/Sweater_blue_yjx9qi.jpg",
+      "price": "90000",
+      "category": "Sweaters",
+      "id": 8
     }
   ]
 }
